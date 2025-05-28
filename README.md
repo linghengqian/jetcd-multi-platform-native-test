@@ -12,8 +12,8 @@ vfox use --global java@22.0.2-graalce
 
 git clone git@github.com:linghengqian/jetcd-multi-platform-native-test.git
 cd ./jetcd-multi-platform-native-test/
-./mvnw -PgenerateMetadata -T 1C clean test native:metadata-copy
-./mvnw -PnativeTestInCustom -T 1C clean test > ./log.txt
+./mvnw -PgenerateMetadata -e -T 1C clean test native:metadata-copy
+./mvnw -PnativeTestInCustom -e -T 1C clean test > ./log.txt
 ```
 
 - The log is as follows.

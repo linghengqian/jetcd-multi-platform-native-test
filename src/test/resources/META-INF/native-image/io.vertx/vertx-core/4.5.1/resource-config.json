@@ -1,0 +1,20 @@
+{
+  "resources":{
+  "includes":[{
+    "condition":{"typeReachable":"io.vertx.core.impl.VerticleManager"},
+    "pattern":"\\QMETA-INF/services/io.vertx.core.spi.VerticleFactory\\E"
+  }, {
+    "condition":{"typeReachable":"io.vertx.core.impl.VertxBuilder"},
+    "pattern":"\\QMETA-INF/services/io.vertx.core.spi.VertxServiceProvider\\E"
+  }, {
+    "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+    "pattern":"\\QMETA-INF/services/java.nio.channels.spi.SelectorProvider\\E"
+  }, {
+    "condition":{"typeReachable":"io.vertx.core.impl.resolver.DnsResolverProvider"},
+    "pattern":"\\Qjndi.properties\\E"
+  }, {
+    "condition":{"typeReachable":"io.vertx.core.logging.LoggerFactory"},
+    "pattern":"\\Qvertx-default-jul-logging.properties\\E"
+  }]},
+  "bundles":[]
+}

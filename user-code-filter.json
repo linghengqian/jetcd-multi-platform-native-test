@@ -1,11 +1,7 @@
 {
   "rules": [
     {"excludeClasses": "**"},
-    {"includeClasses": "ch.qos.logback.**"},
-    {"excludeClasses": "io.grpc.netty.**"},
-    {"excludeClasses": "io.netty.channel.epoll.**"},
-    {"excludeClasses": "io.vertx.core.logging.**"},
-    {"excludeClasses": "org.testcontainers.**"}
+    {"includeClasses": "io.vertx.core.**"}
   ],
   "regexRules": [
   ]
