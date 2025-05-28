@@ -1,7 +1,60 @@
 [
 {
+  "condition":{"typeReachable":"java.io.Serializable"},
+  "name":"java.io.Serializable",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Enum"},
+  "name":"java.lang.Enum",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.io.Closeable"},
+  "name":"java.io.Closeable",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.AutoCloseable"},
+  "name":"java.lang.AutoCloseable",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Comparable"},
+  "name":"java.lang.Comparable",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.constant.Constable"},
+  "name":"java.lang.constant.Constable",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Thread"},
+  "name":"java.lang.Thread$Builder$OfVirtual",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.util.concurrent.atomic.LongAdder"},
+  "name":"java.util.concurrent.atomic.LongAdder",
+  "allPublicConstructors": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Thread"},
+  "name":"java.lang.Thread$Builder",
+  "allDeclaredMethods": true
+},
+{
   "condition":{"typeReachable":"com.github.linghengqian.SimpleTest"},
   "name":"com.github.linghengqian.SimpleTest",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors": true,
+  "allPublicMethods": true,
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.resolver.DnsResolverProvider"},
+  "name":"io.vertx.core.impl.resolver.DnsResolverProvider",
   "allDeclaredFields":true,
   "allDeclaredConstructors": true,
   "allPublicMethods": true,

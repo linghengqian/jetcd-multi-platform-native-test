@@ -1,0 +1,11 @@
+{
+  "resources":{
+  "includes":[{
+    "condition":{"typeReachable":"org.slf4j.impl.SimpleLoggerConfiguration"},
+    "pattern":"\\Qsimplelogger.properties\\E"
+  }, {
+    "condition":{"typeReachable":"com.github.dockerjava.zerodep.shaded.org.apache.hc.client5.http.psl.PublicSuffixMatcherLoader"},
+    "pattern":"\\Qmozilla/public-suffix-list.txt\\E"
+  }]},
+  "bundles":[]
+}
