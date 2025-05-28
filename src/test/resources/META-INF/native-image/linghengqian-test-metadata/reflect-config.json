@@ -51,5 +51,22 @@
   "allDeclaredConstructors": true,
   "allPublicMethods": true,
   "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.util.Deadline"},
+  "name":"sun.text.resources.cldr.ext.FormatData_zh",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.util.Deadline"},
+  "name":"sun.text.resources.cldr.ext.FormatData_zh_CN"
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.util.Deadline"},
+  "name":"sun.text.resources.cldr.ext.FormatData_zh_Hans"
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.util.Deadline"},
+  "name":"sun.text.resources.cldr.ext.FormatData_zh_Hans_CN"
 }
 ]

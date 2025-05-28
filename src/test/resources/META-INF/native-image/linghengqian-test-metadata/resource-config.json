@@ -6,6 +6,10 @@
   }, {
     "condition":{"typeReachable":"com.github.dockerjava.zerodep.shaded.org.apache.hc.client5.http.psl.PublicSuffixMatcherLoader"},
     "pattern":"\\Qmozilla/public-suffix-list.txt\\E"
-  }]},
+  }, {
+    "condition":{"typeReachable":"org.junit.platform.reporting.legacy.xml.XmlReportWriter"},
+    "pattern":"\\QMETA-INF/services/javax.xml.stream.XMLOutputFactory\\E"
+  }
+  ]},
   "bundles":[]
 }
