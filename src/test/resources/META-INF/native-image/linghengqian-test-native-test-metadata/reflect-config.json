@@ -1,0 +1,263 @@
+[
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"android.app.Application"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.etcd.jetcd.resolver.DnsSrvResolverProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.etcd.jetcd.resolver.HttpResolverProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.etcd.jetcd.resolver.HttpsResolverProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.etcd.jetcd.resolver.IPResolverProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.etcd.jetcd.test.EtcdClusterResolverProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.census.InternalCensusStatsAccessor"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.census.InternalCensusTracingAccessor"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.grpclb.GrpclbLoadBalancerProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.grpclb.SecretGrpclbNameResolverProvider$Provider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.internal.DnsNameResolverProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.internal.PickFirstLoadBalancerProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.netty.UdsNameResolverProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.stub.ClientCalls"},
+  "name":"io.grpc.override.ContextStorageOverride"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.util.OutlierDetectionLoadBalancerProvider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.grpc.util.SecretRoundRobinLoadBalancerProvider$Provider"
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"io.netty.channel.AbstractChannelHandlerContext",
+  "fields":[{"name":"handlerState"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"io.netty.channel.ChannelOutboundBuffer",
+  "fields":[{"name":"totalPendingSize"}, {"name":"unwritable"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"io.netty.channel.DefaultChannelConfig",
+  "fields":[{"name":"autoRead"}, {"name":"writeBufferWaterMark"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"io.netty.channel.DefaultChannelPipeline",
+  "fields":[{"name":"estimatorHandle"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"io.netty.channel.DefaultChannelPipeline$HeadContext",
+  "methods":[{"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"io.netty.channel.DefaultChannelPipeline$TailContext",
+  "methods":[{"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.netty.channel.epoll.Epoll"
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"io.netty.channel.socket.nio.NioSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.resolver.DnsResolverProvider"},
+  "name":"io.netty.resolver.dns.Cache$Entries",
+  "fields":[{"name":"expirationFuture"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"io.netty.util.DefaultAttributeMap",
+  "fields":[{"name":"attributes"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"io.netty.util.concurrent.DefaultPromise",
+  "fields":[{"name":"result"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"io.netty.util.concurrent.SingleThreadEventExecutor",
+  "fields":[{"name":"state"}, {"name":"threadProperties"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.eventbus.impl.EventBusImpl"},
+  "name":"io.vertx.core.eventbus.impl.EventBusImpl",
+  "fields":[{"name":"inboundInterceptors"}, {"name":"outboundInterceptors"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.logging.LoggerFactory"},
+  "name":"io.vertx.core.logging.SLF4JLogDelegateFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"java.lang.ProcessHandle",
+  "methods":[{"name":"current","parameterTypes":[] }, {"name":"pid","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.VertxImpl"},
+  "name":"java.lang.Thread",
+  "methods":[{"name":"ofVirtual","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.VertxImpl"},
+  "name":"java.lang.Thread$Builder",
+  "methods":[{"name":"factory","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.VertxImpl"},
+  "name":"java.lang.Thread$Builder$OfVirtual",
+  "methods":[{"name":"name","parameterTypes":["java.lang.String","long"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getInputArguments","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"java.nio.Bits",
+  "methods":[{"name":"unaligned","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","long"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport$$Lambda/0x000001b2182f6f80"},
+  "name":"java.nio.channels.spi.SelectorProvider",
+  "methods":[{"name":"openSocketChannel","parameterTypes":["java.net.ProtocolFamily"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"java.util.concurrent.atomic.LongAdder",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"add","parameterTypes":["long"] }, {"name":"sum","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.stub.ClientCalls"},
+  "name":"java.util.concurrent.atomic.LongAdder",
+  "methods":[{"name":"add","parameterTypes":["long"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }, {"name":"storeFence","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.grpc.VertxChannelBuilder"},
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[{"name":"arrayBaseOffset","parameterTypes":["java.lang.Class"] }, {"name":"arrayIndexScale","parameterTypes":["java.lang.Class"] }, {"name":"copyMemory","parameterTypes":["long","long","long"] }, {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, {"name":"getBoolean","parameterTypes":["java.lang.Object","long"] }, {"name":"getByte","parameterTypes":["long"] }, {"name":"getByte","parameterTypes":["java.lang.Object","long"] }, {"name":"getDouble","parameterTypes":["java.lang.Object","long"] }, {"name":"getFloat","parameterTypes":["java.lang.Object","long"] }, {"name":"getInt","parameterTypes":["long"] }, {"name":"getInt","parameterTypes":["java.lang.Object","long"] }, {"name":"getLong","parameterTypes":["long"] }, {"name":"getLong","parameterTypes":["java.lang.Object","long"] }, {"name":"getObject","parameterTypes":["java.lang.Object","long"] }, {"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }, {"name":"putByte","parameterTypes":["long","byte"] }, {"name":"putByte","parameterTypes":["java.lang.Object","long","byte"] }, {"name":"putDouble","parameterTypes":["java.lang.Object","long","double"] }, {"name":"putFloat","parameterTypes":["java.lang.Object","long","float"] }, {"name":"putInt","parameterTypes":["long","int"] }, {"name":"putInt","parameterTypes":["java.lang.Object","long","int"] }, {"name":"putLong","parameterTypes":["long","long"] }, {"name":"putLong","parameterTypes":["java.lang.Object","long","long"] }, {"name":"putObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.Utils"},
+  "name":"sun.misc.VM"
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[{"name":"publicSelectedKeys"}, {"name":"selectedKeys"}]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"sun.security.provider.DRBG",
+  "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "condition":{"typeReachable":"io.vertx.core.impl.transports.JDKTransport"},
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

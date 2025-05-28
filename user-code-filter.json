@@ -1,7 +1,7 @@
 {
   "rules": [
     {"excludeClasses": "**"},
-    {"includeClasses": "io.vertx.core.**"}
+    {"includeClasses": "io.vertx.**"}
   ],
   "regexRules": [
   ]
