@@ -7,12 +7,13 @@
 
 ```shell
 vfox add java
-vfox install java@22.0.2-graalce
-vfox use --global java@22.0.2-graalce
+vfox install java@24.0.1-graalce
+vfox use --global java@24.0.1-graalce
 
 git clone git@github.com:linghengqian/jetcd-multi-platform-native-test.git
 cd ./jetcd-multi-platform-native-test/
 ./mvnw -PnativeTestInCustom -e -T 1C clean test > ./log.txt
+.\target\native-tests.exe --xml-output-dir .\target\native-test-reports "-Djunit.platform.listeners.uid.tracking.output.dir=.\target\test-ids" -XX:MissingRegistrationReportingMode=Warn
 ```
 
 - Generate GRM by changing the POM and executing `./mvnw -PgenerateMetadata -e -T 1C clean test native:metadata-copy`.
