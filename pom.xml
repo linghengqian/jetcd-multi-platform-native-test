@@ -152,6 +152,33 @@
                             <version>0.10.6</version>
                             <extensions>true</extensions>
                             <configuration>
+                                <quickBuild>true</quickBuild>
+                            </configuration>
+                            <executions>
+                                <execution>
+                                    <id>test-native</id>
+                                    <goals>
+                                        <goal>test</goal>
+                                    </goals>
+                                    <phase>test</phase>
+                                </execution>
+                            </executions>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+            </build>
+        </profile>
+        <profile>
+            <id>nativeTestBtwThrowMissingRegistrationErrors</id>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.graalvm.buildtools</groupId>
+                            <artifactId>native-maven-plugin</artifactId>
+                            <version>0.10.6</version>
+                            <extensions>true</extensions>
+                            <configuration>
                                 <buildArgs>
                                     <buildArg>-H:+UnlockExperimentalVMOptions</buildArg>
                                     <buildArg>-H:ThrowMissingRegistrationErrors=</buildArg>
