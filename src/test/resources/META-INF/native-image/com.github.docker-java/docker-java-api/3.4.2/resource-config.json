@@ -1,26 +1,8 @@
 {
   "resources":{
-  "includes":[{
-    "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-    "pattern":"\\QMETA-INF/services/java.net.spi.InetAddressResolverProvider\\E"
-  }, {
-    "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-    "pattern":"\\QMETA-INF/services/org.testcontainers.core.CreateContainerCmdModifier\\E"
-  }, {
-    "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-    "pattern":"\\QMETA-INF/services/org.testcontainers.dockerclient.DockerClientProviderStrategy\\E"
-  }, {
-    "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-    "pattern":"\\Qcom/github/dockerjava/zerodep/shaded/org/apache/hc/client5/version.properties\\E"
-  }, {
-    "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-    "pattern":"\\Qdocker-java.properties\\E"
-  }, {
-    "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-    "pattern":"\\Qmozilla/public-suffix-list.txt\\E"
-  }]},
-  "bundles":[{
-    "name":"sun.text.resources.cldr.FormatData",
-    "locales":["en"]
-  }]
+    "includes":[{
+      "condition":{"typeReachable":"com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.util.VersionInfo"},
+      "pattern":"\\Qcom/github/dockerjava/zerodep/shaded/org/apache/hc/client5/version.properties\\E"
+    }]},
+  "bundles":[]
 }

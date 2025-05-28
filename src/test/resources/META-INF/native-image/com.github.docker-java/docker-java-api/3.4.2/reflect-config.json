@@ -1,10 +1,6 @@
 [
 {
   "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"[B"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
   "name":"[Lcom.github.dockerjava.api.model.Bind;"
 },
 {
@@ -176,7 +172,8 @@
   "name":"com.github.dockerjava.api.model.AuthConfig",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
+  "queryAllDeclaredConstructors":true,
+  "allDeclaredMethods": true
 },
 {
   "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
@@ -247,6 +244,7 @@
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
+  "allPublicMethods": true,
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
@@ -334,13 +332,6 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"com.github.dockerjava.api.model.ImageOptions",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
 },
 {
   "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
@@ -648,172 +639,45 @@
   "queryAllDeclaredConstructors":true
 },
 {
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.io.Closeable",
-  "queryAllDeclaredMethods":true
+  "condition":{"typeReachable":"com.github.dockerjava.api.command.CreateNetworkCmd"},
+  "name":"com.github.dockerjava.api.command.CreateNetworkCmd",
+  "allDeclaredMethods": true
 },
 {
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.io.Serializable",
-  "queryAllDeclaredMethods":true
+  "condition":{"typeReachable":"com.github.dockerjava.api.command.CreateNetworkResponse"},
+  "name":"com.github.dockerjava.api.command.CreateNetworkResponse",
+  "allDeclaredMethods": true
 },
 {
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.AutoCloseable",
-  "queryAllDeclaredMethods":true
+  "condition":{"typeReachable":"com.github.dockerjava.api.model.PullResponseItem"},
+  "name":"com.github.dockerjava.api.model.PullResponseItem",
+  "allDeclaredMethods": true
 },
 {
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Boolean",
+  "condition":{"typeReachable":"com.github.dockerjava.api.model.ResponseItem"},
+  "name":"com.github.dockerjava.api.model.ResponseItem",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.api.model.ResponseItem"},
+  "name":"com.github.dockerjava.api.model.ResponseItem$AuxDetail",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.api.model.ResponseItem"},
+  "name":"com.github.dockerjava.api.model.ResponseItem$ErrorDetail",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.api.model.ResponseItem"},
+  "name":"com.github.dockerjava.api.model.ResponseItem$ProgressDetail",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"com.github.dockerjava.api.model.ImageOptions"},
+  "name":"com.github.dockerjava.api.model.ImageOptions",
   "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Comparable",
-  "queryAllDeclaredMethods":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Enum",
-  "queryAllDeclaredMethods":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Integer",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Long",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Number",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Object",
-  "queryAllDeclaredMethods":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.Thread",
-  "fields":[{"name":"threadLocalRandomProbe"}]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.constant.Constable",
-  "queryAllDeclaredMethods":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.lang.constant.ConstantDesc",
-  "queryAllDeclaredMethods":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.util.ArrayList",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.util.HashMap",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.util.LinkedHashMap",
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.util.concurrent.ForkJoinTask",
-  "fields":[{"name":"aux"}, {"name":"status"}]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.util.concurrent.atomic.AtomicMarkableReference",
-  "fields":[{"name":"pair"}]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"java.util.concurrent.atomic.Striped64",
-  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"jdk.internal.misc.Unsafe"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.dockerclient.DockerDesktopClientProviderStrategy"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.dockerclient.DockerMachineClientProviderStrategy"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.dockerclient.EnvironmentAndSystemPropertyClientProviderStrategy"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.dockerclient.RootlessDockerClientProviderStrategy"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.dockerclient.TestcontainersHostPropertyClientProviderStrategy"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.dockerclient.UnixSocketClientProviderStrategy"
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.shaded.com.fasterxml.jackson.databind.ext.Java7SupportImpl",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.shaded.com.github.dockerjava.core.DockerConfigFile",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.shaded.com.github.dockerjava.core.command.AbstrDockerCmd",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.shaded.com.github.dockerjava.core.command.CreateContainerCmdImpl",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true
-},
-{
-  "condition":{"typeReachable":"com.github.dockerjava.api.DockerClientDelegate"},
-  "name":"org.testcontainers.shaded.org.awaitility.core.ConditionFactory$1",
-  "queryAllDeclaredMethods":true
+  "allDeclaredMethods": true,
+  "allDeclaredConstructors":true
 }
 ]

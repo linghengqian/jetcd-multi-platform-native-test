@@ -1,0 +1,115 @@
+[
+{
+  "condition":{"typeReachable":"java.io.IOException"},
+  "name":"java.io.IOException",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"java.lang.Boolean"},
+  "name":"java.lang.Boolean",
+  "allDeclaredMethods": true,
+  "allDeclaredFields": true,
+  "allDeclaredConstructors": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Deprecated"},
+  "name":"java.lang.Deprecated",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Number"},
+  "name":"java.lang.Number",
+  "allDeclaredFields": true,
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Integer"},
+  "name":"java.lang.Integer",
+  "allDeclaredMethods": true,
+  "allDeclaredFields": true,
+  "allDeclaredConstructors": true
+},
+{
+  "condition":{"typeReachable":"java.lang.Long"},
+  "name":"java.lang.Long",
+  "allDeclaredMethods": true,
+  "allDeclaredFields": true,
+  "allDeclaredConstructors": true
+},
+{
+  "condition":{"typeReachable":"java.lang.StackTraceElement"},
+  "name":"java.lang.StackTraceElement",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.constant.ConstantDesc"},
+  "name":"java.lang.constant.ConstantDesc",
+  "allDeclaredMethods": true
+},
+{
+  "condition":{"typeReachable":"java.util.HashSet"},
+  "name":"java.util.HashSet",
+  "allDeclaredMethods": true,
+  "allDeclaredConstructors": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.MemoryManagerMXBean"},
+  "name":"java.lang.management.MemoryManagerMXBean",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.MemoryPoolMXBean"},
+  "name":"java.lang.management.MemoryPoolMXBean",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.MonitorInfo"},
+  "name":"java.lang.management.MonitorInfo",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.LockInfo"},
+  "name":"java.lang.management.LockInfo",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.ClassLoadingMXBean"},
+  "name":"java.lang.management.ClassLoadingMXBean",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.ThreadInfo"},
+  "name":"java.lang.management.ThreadInfo",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.RuntimeMXBean"},
+  "name":"java.lang.management.RuntimeMXBean",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.CompilationMXBean"},
+  "name":"java.lang.management.CompilationMXBean",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.MemoryMXBean"},
+  "name":"java.lang.management.MemoryMXBean",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.lang.management.MemoryUsage"},
+  "name":"java.lang.management.MemoryUsage",
+  "allPublicMethods": true
+},
+{
+  "condition":{"typeReachable":"java.net.SocketException"},
+  "name":"java.net.SocketException",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"java.net.SocketTimeoutException"},
+  "name":"java.net.SocketTimeoutException",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+}
+]
