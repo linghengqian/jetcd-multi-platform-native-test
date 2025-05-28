@@ -12,10 +12,10 @@ vfox use --global java@22.0.2-graalce
 
 git clone git@github.com:linghengqian/jetcd-multi-platform-native-test.git
 cd ./jetcd-multi-platform-native-test/
-./mvnw -PgenerateMetadata -e -T 1C clean test native:metadata-copy
 ./mvnw -PnativeTestInCustom -e -T 1C clean test > ./log.txt
 ```
 
+- Generate GRM by changing the POM and executing `./mvnw -PgenerateMetadata -e -T 1C clean test native:metadata-copy`.
 - The log is as follows.
 
 ```shell
