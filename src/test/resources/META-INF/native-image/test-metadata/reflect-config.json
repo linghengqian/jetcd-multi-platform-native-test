@@ -1,0 +1,10 @@
+[
+{
+  "condition":{"typeReachable":"com.github.linghengqian.SimpleTest"},
+  "name":"com.github.linghengqian.SimpleTest",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors": true,
+  "allPublicMethods": true,
+  "allDeclaredMethods": true
+}
+]
