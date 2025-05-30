@@ -1,6 +1,6 @@
 # jetcd-multi-platform-native-test
 
-- For https://github.com/apache/shardingsphere/issues/35052 .
+- For https://github.com/apache/shardingsphere/issues/35052 and https://github.com/oracle/graal/issues/11280 .
 - Execute the following PowerShell 7 command on the `Windows 11 Home 24H2` instance with `PowerShell/PowerShell`,
   `version-fox/vfox`, `git-for-windows/git`, `rancher-sandbox/rancher-desktop` and
   `Microsoft.VisualStudio.2022.Community` installed.
